@@ -1,0 +1,5 @@
+//console.log(document.body.children)
+let cont = (document.body.children[0])
+console.log(cont.children[2].style.color = 'red')
+console.log(cont.children[2].nextElementSibling.style.color = 'blue')
+console.log(cont.children[2].parentElement.style.backgroundColor = 'yellow')
